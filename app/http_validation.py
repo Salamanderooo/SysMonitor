@@ -7,5 +7,5 @@ def validate_status_code(expected_status_code):
     return int(expected_status_code)
 
 
-    validate_status_code(400)
-    print(validate_status_code(400))  # Example usage
+validate_status_code("+400")
+print(validate_status_code("+400"))  # Example usage
